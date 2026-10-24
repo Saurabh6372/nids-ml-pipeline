@@ -1,0 +1,22 @@
+{
+  "model": "RandomForestClassifier",
+  "hyperparameters": {
+    "n_estimators": 300,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt",
+    "max_depth": 20,
+    "class_weight": null
+  },
+  "threshold": 0.005,
+  "held_out_attacks": [
+    "back",
+    "teardrop",
+    "nmap",
+    "warezclient",
+    "guess_passwd",
+    "imap",
+    "buffer_overflow",
+    "rootkit"
+  ],
+  "seed": 42
+}

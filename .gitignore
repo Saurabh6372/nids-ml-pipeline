@@ -1,0 +1,14 @@
+# Data is downloaded by data/download_data.py
+data/raw/
+data/processed/
+
+# Trained model (rebuilt by train.py)
+models/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
